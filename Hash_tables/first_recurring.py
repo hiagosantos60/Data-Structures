@@ -6,12 +6,12 @@
 array = [2,1,4,2,6,5,1,4]
 
 def rcr(array):
-    dictionary = {}
+    dicionario = {}
     for item in array:
-        if item in dictionary:
+        if item in dicionario:
             return item
         else:
-            dictionary[item] = True
+            dicionario[item] = True
     return None
 
 print(rcr(array)) 
