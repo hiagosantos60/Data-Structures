@@ -3,10 +3,10 @@
 #Example1 : array = [2,1,4,2,6,5,1,4]
 #It should return 2
 
-array = [2,1,4,1,5,2,6]
+array = [2,1,4,2,6,5,1,4]
 
 def rcr(array):
-    dictionary = {}
+    dictionary = dict()
     for item in array:
         if item in dictionary:
             return item
@@ -14,4 +14,4 @@ def rcr(array):
             dictionary[item] = True
     return None
 
-print(rcr(array))
+print(rcr(array)) 
