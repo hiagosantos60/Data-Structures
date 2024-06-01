@@ -6,7 +6,7 @@
 array = [2,1,4,2,6,5,1,4]
 
 def rcr(array):
-    dictionary = dict()
+    dictionary = {}
     for item in array:
         if item in dictionary:
             return item
