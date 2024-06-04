@@ -1,3 +1,5 @@
+#exercicio do curso ZTM sobre estrutura de dados 
+
 #Google Question
 #Given an array, return the first recurring character
 #Example1 : array = [2,1,4,2,6,5,1,4]

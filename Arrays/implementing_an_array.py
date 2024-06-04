@@ -1,3 +1,5 @@
+#exercicio do curso ZTM sobre estrutura de dados 
+
 class Array:
     #Inicia a classe Array, define o comprimento e define um dicionário que armazena os elementos.
     def __init__(self): 

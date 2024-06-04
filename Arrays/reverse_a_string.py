@@ -1,3 +1,5 @@
+#exercicio do curso ZTM sobre estrutura de dados 
+
 linha = 'eu sou o hiago'
 
 def reverse(linha):

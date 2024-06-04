@@ -1,8 +1,10 @@
+#exercicio do curso ZTM sobre estrutura de dados 
+
 #no python, uma hash table é um dicionario {} basicamente. É um O(1), ou seja, tem lookups, insetion e deletes muito rápidos.
 
 class HashTable():
     def __init__(self, size):
-        self.size = size 
+        self.size = size
         self.data = [None]*self.size #aqui inicializamos com o array em zero
 
     def __str__(self): #este método retorna strings com os atributos da instância em formato de dicionário
