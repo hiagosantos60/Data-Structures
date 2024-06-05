@@ -8,4 +8,4 @@ def fibonnaci(num):
         a, b = b, a+b #calcula o próximo valor
     return sequencia #retorna o calculo
 
-print(fibonnaci(5))#chama a função e o range do tamanho da lista
+print(fibonnaci(8))#chama a função e o range do tamanho da lista
