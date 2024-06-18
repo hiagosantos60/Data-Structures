@@ -23,7 +23,7 @@ class Stack():
         for i in range(len(self.array)-1, -1, -1):
             print(self.array[i])
         return
-    #len(self.array)-1 -> para começar o loop logo em baixo do último da fila
-    #-1 -> para garantir que vá até o antepenultimo
-    #-1 -> define o tamanho do passo, ou seja, ele diz para ir de um em um no loop.
+    #len(self.array)-1 -> para começar o loop logo em baixo do último da fila. Onde quero que inicie
+    #-1 -> para garantir que vá até o antepenultimo. Onde quero que temine
+    #-1 -> define o tamanho do passo, ou seja, ele diz para ir de um em um no loop. Passo do loop
     
